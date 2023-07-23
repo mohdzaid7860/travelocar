@@ -1,0 +1,36 @@
+/*
+Theme Name: Grab Taxi Child
+Theme URI: http://grab-taxi.axiomthemes.com/
+Description: Grab Taxi - excellent WordPress theme with many different blog and header layouts
+Author: AxiomThemes
+Author URI: http://axiomthemes.com/
+Template: grab-taxi
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: flexible-header, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, full-width-template, microformats, post-formats, theme-options, threaded-comments, translation-ready
+Text Domain: grab-taxi
+*/
+
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+
+.sc_title_button_image a span {
+  position: static !important; 
+ }
+
+/* .wpcf7 input[type="date"]:before {
+    content: attr(placeholder);
+}
+ */
+.page-id-4486 img.tp-rs-img.rs-lazyload {
+    display: none;
+}
+img.tp-rs-img.rs-lazyload {
+    display: none;
+}
+p.wpcf7-contact-form-not-found {
+    display: none !important;
+}
